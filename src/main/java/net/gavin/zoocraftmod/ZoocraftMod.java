@@ -2,6 +2,7 @@ package net.gavin.zoocraftmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.gavin.zoocraftmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,7 +14,6 @@ public class ZoocraftMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-
+		ModItems.registerModItems();
 	}
 }
