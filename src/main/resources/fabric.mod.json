@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "zoocraftmod",
+	"version": "${version}",
+	"name": "Zoocraft Mod",
+	"description": "WIP! Gather animals, fight new bosses.",
+	"authors": [
+		"GRE1DY"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/zoolocraftmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.gavin.zoocraftmod.ZoocraftMod"
+		],
+		"fabric-datagen": [
+			"net.gavin.zoocraftmod.ZoocraftModDataGenerator"
+		],
+		"client": [
+			"net.gavin.zoocraftmod.ZoocraftModClient"
+		]
+	},
+	"mixins": [
+		"zoocraftmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
