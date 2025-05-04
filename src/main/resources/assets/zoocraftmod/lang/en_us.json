@@ -1,5 +1,7 @@
 {
   "item.zoocraftmod.fossil": "Fossil",
 
-  "block.zoocraftmod.fossil_ore": "Fossil Ore"
+  "block.zoocraftmod.fossil_ore": "Fossil Ore",
+
+  "entity.zoocraftmod.ferret": "Ferret"
 }
