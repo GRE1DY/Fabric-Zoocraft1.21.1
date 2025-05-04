@@ -1,21 +1,34 @@
 package net.gavin.zoocraftmod.entity.client;
 
+import com.google.common.collect.Maps;
 import net.gavin.zoocraftmod.ZoocraftMod;
 import net.gavin.zoocraftmod.entity.custom.FerretEntity;
+import net.gavin.zoocraftmod.entity.custom.FerretVariant;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.client.render.entity.MobEntityRenderer;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Util;
+
+import java.util.Map;
 
 public class FerretRenderer extends MobEntityRenderer<FerretEntity, FerretModel<FerretEntity>> {
+    private static final Map<FerretVariant, Identifier> LOCATION_BY_VARIANT =
+            Util.make(Maps.newEnumMap(FerretVariant.class), map -> {
+                map.put(FerretVariant.DEFAULT,
+                        Identifier.of(ZoocraftMod.MOD_ID, "textures/entity/ferret/ferret.png"));
+                map.put(FerretVariant.CHAMPAGNE,
+                        Identifier.of(ZoocraftMod.MOD_ID, "textures/entity/ferret/ferret_champagne.png"));
+            });
+
     public FerretRenderer(EntityRendererFactory.Context context) {
         super(context, new FerretModel<>(context.getPart(FerretModel.FERRET)), 0.15f);
     }
 
     @Override
     public Identifier getTexture(FerretEntity entity) {
-        return Identifier.of(ZoocraftMod.MOD_ID,"textures/entity/ferret/ferret.png");
+        return LOCATION_BY_VARIANT.get(entity.getVariant());
     }
 
     @Override
