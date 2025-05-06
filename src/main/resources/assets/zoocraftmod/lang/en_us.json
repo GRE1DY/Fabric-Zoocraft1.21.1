@@ -4,5 +4,8 @@
 
   "block.zoocraftmod.fossil_ore": "Fossil Ore",
 
-  "entity.zoocraftmod.ferret": "Ferret"
+  "entity.zoocraftmod.ferret": "Ferret",
+
+  "block.zoocraftmod.copper_fence": "Copper Fence",
+  "block.zoocraftmod.copper_fence_gate": "Copper Fence Gate"
 }

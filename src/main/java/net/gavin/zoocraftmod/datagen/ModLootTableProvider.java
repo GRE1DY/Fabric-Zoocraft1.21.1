@@ -28,6 +28,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.FOSSIL_ORE,oreDrops(ModBlocks.FOSSIL_ORE, ModItems.FOSSIL));
 
+        addDrop(ModBlocks.COPPER_FENCE);
+        addDrop(ModBlocks.COPPER_FENCE_GATE);
+
     }
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

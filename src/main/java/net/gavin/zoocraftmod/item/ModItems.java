@@ -32,5 +32,6 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.SPAWN_EGGS).register(entries -> {
             entries.add(FERRET_SPAWN_EGG);
         });
+
     }
 }
