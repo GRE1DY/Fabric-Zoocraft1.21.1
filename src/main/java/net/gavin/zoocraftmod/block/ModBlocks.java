@@ -24,13 +24,15 @@ public class ModBlocks {
                     .create()
                     .strength(2f)
                     .requiresTool()
-                    .sounds(BlockSoundGroup.COPPER)));
+                    .sounds(BlockSoundGroup.COPPER)
+                    .nonOpaque()));
     public static final Block COPPER_FENCE_GATE = registerBlock("copper_fence_gate",
             new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings
                     .create()
                     .strength(2)
                     .requiresTool()
-                    .sounds(BlockSoundGroup.COPPER)));
+                    .sounds(BlockSoundGroup.COPPER)
+                    .nonOpaque()));
 
     private static Block registerBlock (String name, Block block) {
         registerBlockItem(name, block);
