@@ -2,7 +2,7 @@
   "multipart": [
     {
       "apply": {
-        "model": "zoocraftmod:block/copper_fence"
+        "model": "zoocraftmod:block/copper_fence_post"
       },
       "when": {
         "up": "true"
