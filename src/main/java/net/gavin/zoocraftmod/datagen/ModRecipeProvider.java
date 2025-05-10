@@ -28,21 +28,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSmelting(exporter, FOSSIL_SMELTABLES, RecipeCategory.MISC, ModItems.FOSSIL,0.25f, 200, "fossil");
         offerBlasting(exporter, FOSSIL_SMELTABLES, RecipeCategory.MISC, ModItems.FOSSIL,0.25f, 100, "fossil");
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.COPPER_FENCE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.IRON_FENCE)
                 .pattern("   ")
-                .pattern("RRR")
-                .pattern("RRR")
-                .input('R', Ingredient.ofItems(Items.COPPER_INGOT))
-                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .pattern("RSR")
+                .pattern("RSR")
+                .input('R', Ingredient.ofItems(Items.IRON_INGOT))
+                .input('S', Ingredient.ofItems(Items.IRON_NUGGET))
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.COPPER_FENCE_GATE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.IRON_FENCE_GATE)
                 .pattern("   ")
                 .pattern("RXR")
                 .pattern("RXR")
-                .input('R', Ingredient.ofItems(Items.COPPER_BLOCK))
-                .input('X', Ingredient.ofItems(Items.COPPER_INGOT))
-                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .input('R', Ingredient.ofItems(Items.IRON_NUGGET))
+                .input('X', Ingredient.ofItems(Items.IRON_INGOT))
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(exporter);
 
         /*ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlock.INSERTBLOCKHERE)

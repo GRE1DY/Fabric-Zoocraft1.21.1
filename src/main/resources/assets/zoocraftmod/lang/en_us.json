@@ -6,6 +6,6 @@
 
   "entity.zoocraftmod.ferret": "Ferret",
 
-  "block.zoocraftmod.copper_fence": "Copper Fence",
-  "block.zoocraftmod.copper_fence_gate": "Copper Fence Gate"
+  "block.zoocraftmod.iron_fence": "Iron Fence",
+  "block.zoocraftmod.iron_fence_gate": "Iron Fence Gate"
 }

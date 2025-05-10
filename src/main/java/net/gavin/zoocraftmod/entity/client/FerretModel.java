@@ -1,19 +1,14 @@
 package net.gavin.zoocraftmod.entity.client;
 
-import net.gavin.zoocraftmod.ZoocraftMod;
+import net.gavin.zoocraftmod.entity.client.animation.FerretAnimations;
 import net.gavin.zoocraftmod.entity.custom.FerretEntity;
 import net.minecraft.client.render.entity.model.SinglePartEntityModel;
 import net.minecraft.client.model.*;
 import net.minecraft.client.render.VertexConsumer;
-import net.minecraft.client.render.entity.model.EntityModelLayer;
 import net.minecraft.client.util.math.MatrixStack;
-import net.minecraft.util.Identifier;
 import net.minecraft.util.math.MathHelper;
 
 public class FerretModel<T extends FerretEntity> extends SinglePartEntityModel<T> {
-    public static final EntityModelLayer FERRET = new EntityModelLayer(Identifier.of(ZoocraftMod.MOD_ID, "ferret"), "main");
-
-
     private final ModelPart ferret;
     private final ModelPart head;
 
@@ -62,6 +57,10 @@ public class FerretModel<T extends FerretEntity> extends SinglePartEntityModel<T
 
         this.animateMovement(FerretAnimations.ANIM_FERRET_WALK, limbSwing, limbSwingAmount, 2f, 2.5f);
         this.updateAnimation(entity.idleAnimationState, FerretAnimations.ANIM_FERRET_IDLE, ageInTicks, 1f);
+
+        this.updateAnimation(entity.sittingTransitionAnimationState, FerretAnimations.ANIM_FERRET_SIT, ageInTicks, 1.0f);
+        this.updateAnimation(entity.sittingAnimationState, FerretAnimations.ANIM_FERRET_SITTING, ageInTicks, 1.0f);
+        this.updateAnimation(entity.standTransitionAnimationState, FerretAnimations.ANIM_FERRET_STAND, ageInTicks, 1.0f);
 
     }
 

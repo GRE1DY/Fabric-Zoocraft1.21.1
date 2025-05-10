@@ -23,7 +23,7 @@ public class FerretRenderer extends MobEntityRenderer<FerretEntity, FerretModel<
             });
 
     public FerretRenderer(EntityRendererFactory.Context context) {
-        super(context, new FerretModel<>(context.getPart(FerretModel.FERRET)), 0.15f);
+        super(context, new FerretModel<>(context.getPart(ModEntityModelLayers.FERRET)), 0.15f);
     }
 
     @Override

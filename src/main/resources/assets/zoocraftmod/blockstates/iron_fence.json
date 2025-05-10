@@ -2,7 +2,7 @@
   "multipart": [
     {
       "apply": {
-        "model": "zoocraftmod:block/copper_fence_post"
+        "model": "zoocraftmod:block/iron_fence_post"
       },
       "when": {
         "up": "true"
@@ -10,8 +10,8 @@
     },
     {
       "apply": {
-        "model": "zoocraftmod:block/copper_fence_side",
-        "uvlock": true
+        "model": "zoocraftmod:block/iron_fence_side",
+        "uvlock": false
       },
       "when": {
         "north": "low"
@@ -19,8 +19,8 @@
     },
     {
       "apply": {
-        "model": "zoocraftmod:block/copper_fence_side",
-        "uvlock": true,
+        "model": "zoocraftmod:block/iron_fence_side",
+        "uvlock": false,
         "y": 90
       },
       "when": {
@@ -29,8 +29,8 @@
     },
     {
       "apply": {
-        "model": "zoocraftmod:block/copper_fence_side",
-        "uvlock": true,
+        "model": "zoocraftmod:block/iron_fence_side",
+        "uvlock": false,
         "y": 180
       },
       "when": {
@@ -39,8 +39,8 @@
     },
     {
       "apply": {
-        "model": "zoocraftmod:block/copper_fence_side",
-        "uvlock": true,
+        "model": "zoocraftmod:block/iron_fence_side",
+        "uvlock": false,
         "y": 270
       },
       "when": {
@@ -49,8 +49,8 @@
     },
     {
       "apply": {
-        "model": "zoocraftmod:block/copper_fence_side_tall",
-        "uvlock": true
+        "model": "zoocraftmod:block/iron_fence_side_tall",
+        "uvlock": false
       },
       "when": {
         "north": "tall"
@@ -58,8 +58,8 @@
     },
     {
       "apply": {
-        "model": "zoocraftmod:block/copper_fence_side_tall",
-        "uvlock": true,
+        "model": "zoocraftmod:block/iron_fence_side_tall",
+        "uvlock": false,
         "y": 90
       },
       "when": {
@@ -68,8 +68,8 @@
     },
     {
       "apply": {
-        "model": "zoocraftmod:block/copper_fence_side_tall",
-        "uvlock": true,
+        "model": "zoocraftmod:block/iron_fence_side_tall",
+        "uvlock": false,
         "y": 180
       },
       "when": {
@@ -78,8 +78,8 @@
     },
     {
       "apply": {
-        "model": "zoocraftmod:block/copper_fence_side_tall",
-        "uvlock": true,
+        "model": "zoocraftmod:block/iron_fence_side_tall",
+        "uvlock": false,
         "y": 270
       },
       "when": {

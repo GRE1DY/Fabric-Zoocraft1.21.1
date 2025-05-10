@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "zoocraftmod:block/copper_fence_side",
-		"particle": "zoocraftmod:block/copper_fence_side"
+		"0": "zoocraftmod:block/iron_fence_side_tall",
+		"particle": "zoocraftmod:block/iron_fence_side_tall"
 	},
 	"elements": [
 		{
@@ -35,55 +35,55 @@
 			}
 		},
 		{
-			"from": [7.5, 0, 5.5],
-			"to": [8.5, 14, 6.5],
-			"rotation": {"angle": 0, "axis": "y", "origin": [6.9375, 7.5, 5.85]},
+			"from": [7.5, 0, 5.25],
+			"to": [8.5, 16, 6.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.9375, 7.5, 5.7]},
 			"faces": {
-				"north": {"uv": [0.25, 4.75, 0.5, 8.25], "texture": "#0"},
-				"east": {"uv": [0, 4.75, 0.25, 8.25], "texture": "#0"},
-				"south": {"uv": [0.75, 4.75, 1, 8.25], "texture": "#0"},
-				"west": {"uv": [0.5, 4.75, 0.75, 8.25], "texture": "#0"},
+				"north": {"uv": [0.25, 4.75, 0.5, 8.75], "texture": "#0"},
+				"east": {"uv": [0, 4.75, 0.25, 8.75], "texture": "#0"},
+				"south": {"uv": [0.75, 4.75, 1, 8.75], "texture": "#0"},
+				"west": {"uv": [0.5, 4.75, 0.75, 8.75], "texture": "#0"},
 				"up": {"uv": [0.5, 4.75, 0.25, 4.5], "texture": "#0"},
 				"down": {"uv": [0.75, 4.5, 0.5, 4.75], "texture": "#0"}
 			}
 		},
 		{
 			"from": [7.5, 0, 7.5],
-			"to": [8.5, 14, 8.5],
-			"rotation": {"angle": 0, "axis": "y", "origin": [6.9375, 7.5, 7.85]},
+			"to": [8.5, 16, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.9375, 7.5, 7.95]},
 			"faces": {
-				"north": {"uv": [0.25, 4.75, 0.5, 8.25], "texture": "#0"},
-				"east": {"uv": [0, 4.75, 0.25, 8.25], "texture": "#0"},
-				"south": {"uv": [0.75, 4.75, 1, 8.25], "texture": "#0"},
-				"west": {"uv": [0.5, 4.75, 0.75, 8.25], "texture": "#0"},
+				"north": {"uv": [0.25, 4.75, 0.5, 8.75], "texture": "#0"},
+				"east": {"uv": [0, 4.75, 0.25, 8.75], "texture": "#0"},
+				"south": {"uv": [0.75, 4.75, 1, 8.75], "texture": "#0"},
+				"west": {"uv": [0.5, 4.75, 0.75, 8.75], "texture": "#0"},
 				"up": {"uv": [0.5, 4.75, 0.25, 4.5], "texture": "#0"},
 				"down": {"uv": [0.75, 4.5, 0.5, 4.75], "texture": "#0"}
 			}
 		},
 		{
 			"from": [7.5, 0, 3],
-			"to": [8.5, 14, 4],
+			"to": [8.5, 16, 4],
 			"rotation": {"angle": 0, "axis": "y", "origin": [4.1875, 7.5, 3.4]},
 			"faces": {
-				"north": {"uv": [1.25, 4.75, 1.5, 8.25], "texture": "#0"},
-				"east": {"uv": [1, 4.75, 1.25, 8.25], "texture": "#0"},
-				"south": {"uv": [1.75, 4.75, 2, 8.25], "texture": "#0"},
-				"west": {"uv": [1.5, 4.75, 1.75, 8.25], "texture": "#0"},
+				"north": {"uv": [1.25, 4.75, 1.5, 8.75], "texture": "#0"},
+				"east": {"uv": [1, 4.75, 1.25, 8.75], "texture": "#0"},
+				"south": {"uv": [1.75, 4.75, 2, 8.75], "texture": "#0"},
+				"west": {"uv": [1.5, 4.75, 1.75, 8.75], "texture": "#0"},
 				"up": {"uv": [1.5, 4.75, 1.25, 4.5], "texture": "#0"},
 				"down": {"uv": [1.75, 4.5, 1.5, 4.75], "texture": "#0"}
 			}
 		},
 		{
 			"from": [7.5, 0, 0.5],
-			"to": [8.5, 14, 1.5],
+			"to": [8.5, 16, 1.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [4.1875, 7.5, 0.9]},
 			"faces": {
-				"north": {"uv": [1.25, 4.75, 1.5, 8.25], "texture": "#0"},
-				"east": {"uv": [1, 4.75, 1.25, 8.25], "texture": "#0"},
-				"south": {"uv": [1.75, 4.75, 2, 8.25], "texture": "#0"},
-				"west": {"uv": [1.5, 4.75, 1.75, 8.25], "texture": "#0"},
-				"up": {"uv": [1.5, 4.75, 1.25, 4.5], "texture": "#0"},
-				"down": {"uv": [1.75, 4.5, 1.5, 4.75], "texture": "#0"}
+				"north": {"uv": [2.25, 4.75, 2.5, 8.75], "texture": "#0"},
+				"east": {"uv": [2, 4.75, 2.25, 8.75], "texture": "#0"},
+				"south": {"uv": [2.75, 4.75, 3, 8.75], "texture": "#0"},
+				"west": {"uv": [2.5, 4.75, 2.75, 8.75], "texture": "#0"},
+				"up": {"uv": [2.5, 4.75, 2.25, 4.5], "texture": "#0"},
+				"down": {"uv": [2.75, 4.5, 2.5, 4.75], "texture": "#0"}
 			}
 		}
 	]

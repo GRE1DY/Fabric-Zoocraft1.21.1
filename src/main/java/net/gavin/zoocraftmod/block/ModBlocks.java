@@ -19,14 +19,14 @@ public class ModBlocks {
                     .requiresTool()
                     .sounds(BlockSoundGroup.DEEPSLATE)));
 
-    public static final Block COPPER_FENCE = registerBlock( "copper_fence",
+    public static final Block IRON_FENCE = registerBlock( "iron_fence",
             new WallBlock(AbstractBlock.Settings
                     .create()
                     .strength(2f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.COPPER)
                     .nonOpaque()));
-    public static final Block COPPER_FENCE_GATE = registerBlock("copper_fence_gate",
+    public static final Block IRON_FENCE_GATE = registerBlock("iron_fence_gate",
             new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings
                     .create()
                     .strength(2)
@@ -52,8 +52,8 @@ public class ModBlocks {
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(COPPER_FENCE);
-            entries.add(COPPER_FENCE_GATE);
+            entries.add(IRON_FENCE);
+            entries.add(IRON_FENCE_GATE);
         });
     }
 }

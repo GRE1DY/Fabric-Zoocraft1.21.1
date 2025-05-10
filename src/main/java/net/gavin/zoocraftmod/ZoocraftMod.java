@@ -22,6 +22,6 @@ public class ZoocraftMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		//Register Ferret entity and create attributes
-		FabricDefaultAttributeRegistry.register(ModEntities.FERRET, FerretEntity.createAttributes());
+		FabricDefaultAttributeRegistry.register(ModEntities.FERRET, FerretEntity.createFerretAttributes());
 	}
 }
